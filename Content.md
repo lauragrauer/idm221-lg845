@@ -155,9 +155,14 @@ Server, Busser, Dessert Attendant May 2022 - Jan 2023
 | Digital/Traditional Art, 2015 - Present | Care of Exotic Animals, 2018 - Present |
 | Dog Walking, 2019 - Present | Badminton, 2018 - Present |
 
-**HONORS & AWARDS**||
-|-----------------------------------|------------------------------|
-| Founder's Scholarship, Drexel University, 2023 - Present | Westphal Portfolio Scholarship, Drexel University, 2023 - Present |
+
+#### **HONORS & AWARDS**
+***
+Founder's Scholarship, Drexel University, 2023 - Present
+***
+Westphal Portfolio Scholarship, Drexel University, 2023 - Present
+***
+Additional Award Name, Year
 ***
 
 
