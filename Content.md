@@ -103,12 +103,12 @@ I am currently an undergraduate student at Drexel University, where I study User
 
 # **ARTWORK**
 A large portion of my artwork was created during my middle and high school years towards commissions . Despite this early start, art remains one of my most enjoyable hobbies, and I plan to improve my skills every day—especially through my current position on the E-Board of the Drexel CHI UX Club.
-### **<u>DIGITAL</u>**
-These were primarily created with a Wacom Cintiq 16 Drawing Tablet through the use of Photoshop, Lightroom, and Paint Tool Sai.
-### **<u>TRADITIONAL</u>**
-My traditional work is composed of a multitude of mediums, ranging from pencils to watercolor and acrylics.
-### **<u>PHOTOGRAPHY</u>**
-With the use of the Canon Rebel, Photoshop, Lightroom, and Adobe Bridge, I was able to capture pictures of my dogs!
+### **DIGITAL**
+> These were primarily created with a Wacom Cintiq 16 Drawing Tablet through the use of Photoshop, Lightroom, and Paint Tool Sai.
+### **TRADITIONAL**
+> My traditional work is composed of a multitude of mediums, ranging from pencils to watercolor and acrylics.
+### **PHOTOGRAPHY**
+> With the use of the Canon Rebel, Photoshop, Lightroom, and Adobe Bridge, I was able to capture pictures of my dogs!
 # **RESUME**
 ### **EDUCATION**
 > Drexel University Philadelphia, PA
@@ -120,21 +120,21 @@ With the use of the Canon Rebel, Photoshop, Lightroom, and Adobe Bridge, I was a
 ### **SKILLS**
 > Adobe Illustrator, Photoshop, Figma, Premier Pro, Entry-level Animation, Graphic/Traditional Arts, Entry-level Programming, Laser Cutting, Previous Communication Experience
 ### **EXPERIENCE**
-<u>Drexel University CHI UX eBoard Philadelphia, PA</u>
+#### <b>Drexel University CHI UX eBoard Philadelphia, PA</b>
 
 Graphic Designer March 2024 - Present 2024
 > * Create appealing graphic designs in correlation to club-hosted events within a limited timeframe
 > * Participate in discussions with the marketing team for the efficient creation of events
 > * Collaborate with other sections of the board to have preparations run smoothly
 
-<u>Gia Pronto Kitchen Philadelphia, PA</u>
+#### <b>Gia Pronto Kitchen Philadelphia, PA</b>
 
 Barista, Front of House Staff July 2024 - Present 2024
 > * Multitasked in coffee preparation, salad creation, and panini pressing
 > * Continuously restock and maintain cleanliness of front-of-house areas
 > * Assist customers and supported team members as needed
 
-<u>XFINITY Live Philadelphia, PA</u>
+#### <b>XFINITY Live Philadelphia, PA</b>
 
 Event Staff July 2023 - January 2024
 > * Efficiently processed cash, credit, and debit transactions in high-volume
@@ -142,7 +142,7 @@ Event Staff July 2023 - January 2024
 > * Maintained cleanliness at all times to ensure a pleasant shopping experience for customers
 > * Collaborated with team members to achieve store goals
 
-<u>Fogo De Chao Philadelphia, PA</u>
+#### <b>Fogo De Chao Philadelphia, PA</b>
 
 Server, Busser, Dessert Attendant May 2022 - Jan 2023
 > * Ability to multitask in a variety of fields in an orderly manner
