@@ -9,7 +9,7 @@
 # **HOME**
 Hi there! I’m Laura, a UX/UI designer dedicated to crafting user-centered experiences which coherently blend functionality with beauty.
 
-### **<u>CONTACT</u>**
+### **<u>Contact</u>**
 
 > grauerlaura80@gmail.com
 
@@ -92,7 +92,7 @@ The final resolution would be to increase the natural mapping in correlation to 
 # **ABOUT**
 I am currently an undergraduate student at Drexel University, where I study User Experience and Interaction Design, complemented by a minor in Computer Science. Having spent part of my childhood in Indonesia, I developed a deep appreciation for cultural diversity. This experience has fueled my passion for creating user experiences that cater to the unique needs and preferences of all communities. I’ve enjoyed exploring a wide variety of perspectives, and I aspire to contribute meaningfully to the UX design field.
 
-### **<u>CONTACT</u>**
+### **<u>Contact</u>**
 
 > grauerlaura80@gmail.com
 
@@ -103,23 +103,23 @@ I am currently an undergraduate student at Drexel University, where I study User
 
 # **ARTWORK**
 A large portion of my artwork was created during my middle and high school years towards commissions . Despite this early start, art remains one of my most enjoyable hobbies, and I plan to improve my skills every day—especially through my current position on the E-Board of the Drexel CHI UX Club.
-### **DIGITAL**
+### **Digital**
 > These were primarily created with a Wacom Cintiq 16 Drawing Tablet through the use of Photoshop, Lightroom, and Paint Tool Sai.
-### **TRADITIONAL**
+### **Traditional**
 > My traditional work is composed of a multitude of mediums, ranging from pencils to watercolor and acrylics.
-### **PHOTOGRAPHY**
+### **Photography**
 > With the use of the Canon Rebel, Photoshop, Lightroom, and Adobe Bridge, I was able to capture pictures of my dogs!
 # **RESUME**
-### **EDUCATION**
+### **Education**
 > Drexel University Philadelphia, PA
 > 
 > Bachelor of Science in User Experience & Interaction Design Anticipated Graduation - June 2028
 > 
 > Major UX Design, Minor Computer Science Cumulative GPA 3.5
 
-### **SKILLS**
+### **Skills**
 > Adobe Illustrator, Photoshop, Figma, Premier Pro, Entry-level Animation, Graphic/Traditional Arts, Entry-level Programming, Laser Cutting, Previous Communication Experience
-### **EXPERIENCE**
+### **Experience**
 #### <b>Drexel University CHI UX eBoard Philadelphia, PA</b>
 
 Graphic Designer March 2024 - Present 2024
@@ -150,12 +150,12 @@ Server, Busser, Dessert Attendant May 2022 - Jan 2023
 > * Prepared both custom cold & cooked desserts with attention to proper presentation and enjoyment
 > * Consistently restocked silverware and tablecloth to ensure a well-prepared dining environment
 
-**ACTIVITIES**||
+**Activities**||
 |-----------------------------------|------------------------------|
 | Digital/Traditional Art, 2015 - Present | Care of Exotic Animals, 2018 - Present |
 | Dog Walking, 2019 - Present | Badminton, 2018 - Present |
 
-**HONORS & AWARDS**||
+**Honors & Awards**||
 |-----------------------------------|------------------------------|
 | Founder's Scholarship, Drexel University, 2023 - Present | Westphal Portfolio Scholarship, Drexel University, 2023 - Present |
 ***
