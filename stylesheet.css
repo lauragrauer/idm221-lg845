@@ -1,10 +1,26 @@
 * {
     padding: 0 0em 0em 0em;
-    padding-inline: 12px;
-   }
+    padding-inline: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     background-color: #19191a
 }
 h1 {
     color: #ffffff;
+    
+    }
+h2 {
+    color: #f0f0f0;
+}
+p {
+    color: #d0d0d0
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;        
     }
