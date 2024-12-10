@@ -5,13 +5,19 @@ body {
     background-color: #19191a
     }
 h1 {
-    font-size: 54px;
+    font-size: 24px;
     color: #ffffff;
     }
 h2 {
+    font-size: 18px;
     color: #f0f0f0;
 }
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
 p {
+    font-size: 14px;
     color: #d0d0d0
     
 }
