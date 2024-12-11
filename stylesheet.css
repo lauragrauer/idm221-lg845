@@ -1,30 +1,43 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    letter-spacing: 0.8px;
 }
 body {
     background-color: #19191a
     }
 h1 {
-    font-size: 24px;
+    font-size: 1.8rem;
     color: #ffffff;
+    padding: 0.1rem;
     }
 h2 {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #f0f0f0;
+    padding: 0.1rem;
 }
 h1, h2 {
     margin-top: 0;
-    margin-bottom: 3px;
+    margin-bottom: 0.4rem;
 }
 p {
-    font-size: 14px;
-    color: #d0d0d0
-    
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    line-height: 1.2rem;
+    color: #bdbdbd
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    height: auto;        
+    height: auto;
+    padding: 10px;        
     }
+button {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
