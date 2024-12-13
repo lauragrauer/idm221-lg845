@@ -1,45 +1,171 @@
+<!-- base for entire page -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura Grauer</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- base for task bar -->
+<body>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        ooo </div>
+        <div class="menu-items" id="menu-items"> <ul>
+            <li><a href="home.html" id="home">HOME</a></li>
+            <li><a href="resume.html" id="resume">RESUME</a></li>
+            <li><a href="artwork.html" id="artwork">ARTWORK</a></li>
+            <li><a href="about.html" id="about">ABOUT</a></li>
+            </ul></div>
+            <script>
+                // Changes menu visibility
+                    function toggleMenu() {
+                    var menu = document.getElementById("menu-items");
+                    menu.classList.toggle("active");
+                }
+                // Highlights current page
+                    function highlightActiveMenuItem() {
+                    var currentPage = window.location.pathname.split('/').pop(); // Get the current page's name
+                // Removes highlight
+                    var menuItems = document.querySelectorAll('.menu-items a');
+                    menuItems.forEach(function(item) {
+                    item.classList.remove('active');
+                });
+                // Highlight to current page
+                    var activeLink = document.getElementById(currentPage.split('.')[0]); // Use the page name (without .html)
+                    if (activeLink) {
+                    activeLink.classList.add('active');
+                  }
+                }
+                // More highlight
+                window.onload = highlightActiveMenuItem;
+              </script>
+          </div>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HELLO,</title>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
+
+<!-- Content -->
     <body>
-        <img src="./images/laura.png" width="300" height="300" alt="profile picture" style="border-left: 1.5px solid #5b5a5c; border-right: 1.5px solid #5b5a5c;">  
+        <img src="./images/home-portrait.png" width="300" height="300" alt="profile picture" style="border-left: 1.5px solid #5b5a5c; border-right: 1.5px solid #5b5a5c;">  
         <br>
         <h1>HELLO!</h1>
-        <h2>MY NAME IS LAURA,</h2>
+        <h3>MY NAME IS LAURA,</h3>
         <p>
-            a UX/UI designer dedicated to crafting user-centered experiences to blend functionality with beauty. This is a test.
+            a UX/UI designer dedicated to crafting user-centered experiences to blend functionality with beauty.
         </p>
-       <a href="casestudy1.html" style="text-decoration: none;">
-            <button style="
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.3rem;
-            font-weight: 700;
-            background-color: #242325;
-            color: #ffffff;
-            border-radius: 1rem;
-            height: auto;
-            padding: 1rem;
-            margin-left: 1rem;
-            text-align: left;
-            line-height: 1.5rem;"> 
-            <span style="font-size: 1.3rem;">TODOIST TASK MANG. APP</span>
-            <br>
-            <span style="font-size: 0.9rem;
-            color: #cccccc;
-            font-weight: 200;
-            padding: 5;
-            margin-left: 0.3rem;
-            line-height: 1.3rem;">
+
+<!-- Case Study 1 button -->
+<a href="casestudy1.html" style="text-decoration: none;">
+    <button style="
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        background-color: #242325;
+        color: #ffffff;
+        border-radius: 1rem;
+        height: auto;
+        padding: 1rem;
+        margin-left: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    "> 
+<!-- Image -->
+        <img src="./images/home-tt-1.png" alt="Icon" style="width: 550px; height: 250px; object-fit: cover; margin-bottom: 0.3rem;">
+
+<!-- Button Text -->
+    <span style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.2rem; line-height: 1.5rem;">TODOIST TASK MANG. APP</span>
+    <span style="font-size: 0.9rem; color: #cccccc; font-weight: 200; margin-left: 0.3rem; line-height: 1.3rem; padding: 0;">
+        This project involves a thorough rework of the widely used task management app, 
+        Todoist. The app empowers users to efficiently create, organize, and prioritize tasks, 
+        boosting productivity and streamlining daily planning. Here, I outline its strengths and weaknesses.
+</span></button></a>
+
+<br>
+
+<!-- Case Study 2 button -->
+<a href="casestudy2.html" style="text-decoration: none;">
+    <button style="
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        background-color: #242325;
+        color: #ffffff;
+        border-radius: 1rem;
+        height: auto;
+        padding: 1rem;
+        margin-left: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    "> 
+<!-- Image -->
+        <img src="./images/home-tt-2.png" alt="Icon" style="width: 550px; height: 250px; object-fit: cover; margin-bottom: 0.3rem;">
+<!-- Button Text -->
+    <span style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.3rem; line-height: 1.5rem;">STREET TAILS ANIMAL RESCUE WEBSITE REDESIGN & MICRO INTERACTIONS</span>
+    <span style="font-size: 0.9rem; color: #cccccc; font-weight: 200; margin-left: 0.3rem; line-height: 1.3rem; padding: 0;">
+        This is a redesign of a Philadelphian local animal shelter's website. The original website offers a warm, homely aesthetic that aligns with the organization's mission. Here, I include a micro interaction input and incorporate cross-device functionality.
+    </span>
+    </button>
+</a>
+<br>
+<body>
+
+<!-- Case Studies Section -->
+<a href="casestudy1.html" style="text-decoration: none;">
+    <button style="
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        background-color: #242325;
+        color: #ffffff;
+        border-radius: 1rem;
+        height: auto;
+        padding: 1rem;
+        margin-left: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    "> 
+    <!-- Image -->
+        <img src="./images/home-tt-1.png" alt="Icon" style="width: 550px; height: 250px; object-fit: cover; margin-bottom: 0.3rem;">
+    <!-- Button Text -->
+        <span style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.2rem; line-height: 1.5rem;">TODOIST TASK MANG. APP</span>
+        <span style="font-size: 0.9rem; color: #cccccc; font-weight: 200; margin-left: 0.3rem; line-height: 1.3rem; padding: 0;">
             This project involves a thorough rework of the widely used task management app, 
             Todoist. The app empowers users to efficiently create, organize, and prioritize tasks, 
             boosting productivity and streamlining daily planning. Here, I outline its strengths and weaknesses.
-        </span>      
-        </button>
-        </a>
-    </body>
-</html>
+        </span>
+    </button>
+</a>
+<!-- Line -->
+<hr>
+<!-- Contact Section -->
+<br>
+<div class="contact-section">
+    <h2>CONTACT</h2>
+    <div class="divider"></div>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:grauerlaura80@gmail.com">grauerlaura80@gmail.com</a></p>
+        <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/laura-grauer-807662286" target="_blank">LINKEDIN</a></p>
+        <p class="discord">Discord: <span>cowbone#9173</span></p>
+    </div>
+</div>
+</body></html>
