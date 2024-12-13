@@ -38,6 +38,15 @@ h3 {
     margin-bottom: 0.01rem;
 }
 
+h4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+}
+
 p {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -253,9 +262,20 @@ hr {
 
 /* Link Button Styles */
 .link-button {
-    background-color: #AF0E31; /* Background color for the link button */
+    background-color: #AF0E31;
 }
 
 .link-button:hover {
-    background-color: #9C0E26; /* Darker background when hovering */
+    background-color: #9C0E26;
+}
+
+/* Single Image to the side */
+.images-container {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.images-container img {
+    margin-left: 1rem;
 }
