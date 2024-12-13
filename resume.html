@@ -1,8 +1,5 @@
-<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 <!-- base for entire page -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -11,67 +8,81 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-
-
-
-
-<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 <!-- base for task bar -->
-<body>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-        ooo </div>
-        <div class="menu-items" id="menu-items"> <ul>
-            <li><a href="home.html" id="home">HOME</a></li>
-            <li><a href="resume.html" id="resume">RESUME</a></li>
-            <li><a href="artwork.html" id="artwork">ARTWORK</a></li>
-            <li><a href="about.html" id="about">ABOUT</a></li>
-            </ul></div>
-            <script>
-                // Changes menu visibility
-                    function toggleMenu() {
-                    var menu = document.getElementById("menu-items");
-                    menu.classList.toggle("active");
-                }
-                // Highlights current page
-                    function highlightActiveMenuItem() {
-                    var currentPage = window.location.pathname.split('/').pop(); // Get the current page's name
-                // Removes highlight
-                    var menuItems = document.querySelectorAll('.menu-items a');
-                    menuItems.forEach(function(item) {
-                    item.classList.remove('active');
-                });
-                // Highlight to current page
-                    var activeLink = document.getElementById(currentPage.split('.')[0]); // Use the page name (without .html)
-                    if (activeLink) {
-                    activeLink.classList.add('active');
-                  }
-                }
-                // More highlight
-                window.onload = highlightActiveMenuItem;
-              </script>
-          </div>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HELLO,</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
+
+<!-- base for entire page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura Grauer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- BASE FOR TASK BAR -->
+<body>
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">ooo</div>
+      <div class="menu-items" id="menu-items">
+        <ul>
+        <li><a href="home.html" id="home">HOME</a></li>
+        <li><a href="resume.html" id="resume">RESUME</a></li>
+        <li><a href="artwork.html" id="artwork">ARTWORK</a></li>
+        <li><a href="about.html" id="about">ABOUT</a></li>
+</ul></div></div>
+  
+<script>
+// Switch menu visibility
+    function toggleMenu() {
+    document.getElementById("menu-items").classList.toggle("active");
+}
+  
+// Highlight current page on menu
+    window.onload = function () {
+        var currentPage = window.location.pathname.split('/').pop().split('.')[0];
+        var activeLink = document.getElementById(currentPage);
+        if (activeLink) activeLink.classList.add('active');
+};
+</script>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HELLO,</title>
+<link rel="stylesheet" href="stylesheet.css">
+</body>
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
 
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 <!-- INTRRODUCTION -->
-    <body>
-            <br><br>
-            <h1>RESUME</h1>
-            <p>
-                This resume highlights the experience I've gained over the years, showcasing my skills and expertise.
-            </p>
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8023833d-b3b5-4bec-8fbf-b93126499458?viewer%21megaVerb=group-discover" target="_blank">
-                <button class="custom-button link-button">PDF VERSION</button>
-            </a>
+<body>
+<br><br>
+<h1>RESUME</h1>
+<p>
+        This resume highlights the experience I've gained over the years, showcasing my skills and expertise.
+</p>
+<a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8023833d-b3b5-4bec-8fbf-b93126499458?viewer%21megaVerb=group-discover" target="_blank">
+<button class="custom-button link-button">PDF VERSION</button>
+</a>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 
 
@@ -80,15 +91,15 @@
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 <!-- CHANGE OF BACKGROUND -->
-            <style>
-                .text-background {
-                    background-color: #ffffff;
-                    color: #000000;
-                    padding: 1.3rem;
-                }
-            </style>
-        </head>
-        <body>
+<style>
+.text-background {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1.3rem;
+}
+</style>
+</head>
+<body>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 
 
@@ -97,12 +108,12 @@
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
  <!-- CONTACT -->
-            <p class="text-background">Laura Grauer<br>
-                267-974-5541<br>
-                <a href="https://lauragrauer.com" target="_blank" class="link-style">lauragrauer.com</a> <br>
-                grauerlaura80@gmail.com<br>
-                Philadelphia PA 19148
-            <br><br>
+<p class="text-background">Laura Grauer<br>
+267-974-5541<br>
+<a href="https://lauragrauer.com" target="_blank" class="link-style">lauragrauer.com</a> <br>
+        grauerlaura80@gmail.com<br>
+        Philadelphia PA 19148
+<br><br>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 
 
@@ -112,33 +123,37 @@
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
  <!-- RESUME -->
-            <b class="custom-bold">RESUME</b>
-            <br>
-            Drexel University
-            Bachelor of Science in User Experience & Interaction Design
-            <br>Anticipated Graduation - June 2028
-            
-            <br><br>
-            <b class="custom-bold">SKILLS</b>
-            <br>
-            Wireframing and Prototyping, Photoshop, Figma, Visual and Graphic Design, Entry-level Animation,
-            Entry-level Programming, Effective Communications, Interaction Design, Laser Cutting, Premier Pro
-        
-            <br><br>
-            <b class="custom-bold">EXPERIENCE</b>
-            <br>
-            <b>Free Lance</b>
-            <br>
-            <i>UI/ Graphic Designer
-<br>Philadelphia Sep. 2023 - Present</i>
+<b class="custom-bold">RESUME</b>
 <br>
-• Collaborate with clients to design user interfaces, using wireframes to demonstrate the website development process
-<br>• Produce promotional material concepts, including posters and banners, to support marketing campaigns
-<br>• Deliver custom artwork for clients through commissions, tailoring designs to their specific needs
+    Drexel University
+    Bachelor of Science in User Experience & Interaction Design
+<br>Anticipated Graduation - June 2028
+
+
 <br><br>
-<b>Westphal Student Council</b>
+<b class="custom-bold">SKILLS</b>
 <br>
-Council Member
+    Wireframing and Prototyping, Photoshop, Figma, Visual and Graphic Design, Entry-level Animation,
+    Entry-level Programming, Effective Communications, Interaction Design, Laser Cutting, Premier Pro
+
+
+<br><br>
+<b class="custom-bold">EXPERIENCE</b>
+<br>
+    <b>Free Lance</b><br>
+
+<i>UI/ Graphic Designer
+    <br>Philadelphia Sep. 2023 - Present</i>
+    <br>
+    • Collaborate with clients to design user interfaces, using wireframes to demonstrate the website development process
+    <br>
+    • Produce promotional material concepts, including posters and banners, to support marketing campaigns
+    <br>• Deliver custom artwork for clients through commissions, tailoring designs to their specific needs
+    <br><br>
+
+
+<b>Westphal Student Council</b>
+<br>Council Member
 <br>Philadelphia Oct. 2023 - Present
 <br>
 • Attend regular council meetings
@@ -149,6 +164,8 @@ Council Member
 <br><br>
 <b>Drexel CHI UX eBoard</b>
 <br>
+
+
 Graphic Designer
 <br>Philadelphia March 2024 - Present
 <br>
@@ -156,6 +173,8 @@ Graphic Designer
 <br>• Discussion engagement with the marketing and media team for event creation
 <br>• Coordinate with other board sections to ensure smooth preparations.
 <br><br>
+
+
 <b>Gia Pronto Kitchen</b>
 <br>Barista, Front of House
 <br>Philadelphia July 2024 - Present
@@ -173,6 +192,7 @@ Graphic Designer
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
  <!-- ACTIVITIES -->
 <b class="custom-bold">Activities</b>
+
 <br><b>Digital/Traditional Art, 2015</b> - Present
 <br><b>Dog Walking, 2019</b> - Present
 <br><b>Care of Exotic Animals, 2018</b> - Present
@@ -187,6 +207,7 @@ Graphic Designer
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
  <!-- HONORS and AWARDS -->
 <b class="custom-bold">Honors & Awards</b>
+
 <br><b>Founder's Scholarship, </b>Drexel University, 2023 - Present
 <br><b>Westphal Portfolio Scholarship, </b>Drexel University, 2023 - Present
 <br>
@@ -197,16 +218,15 @@ Graphic Designer
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-<!-- CONTACT SECTION -->
-<br>
-<div class="contact-section">
+<!-- CONTACT -->
+<br><div class="contact-section">
     <h2>CONTACT</h2>
-    <div class="divider"></div>
-    <div class="contact-info">
+        <div class="divider"></div>
+        <div class="contact-info">
         <p>Email: <a href="mailto:grauerlaura80@gmail.com">grauerlaura80@gmail.com</a></p>
         <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/laura-grauer-807662286" target="_blank">LINKEDIN</a></p>
         <p class="discord">Discord: <span>cowbone#9173</span></p>
     </div>
-<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-</div>
-</body></html>
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    </div>
+    </body></html>

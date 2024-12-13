@@ -2,13 +2,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<html lang="en">
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Laura Grauer</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+</head>
+<!-- base for task bar -->
+
+<!-- base for entire page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura Grauer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -17,48 +30,43 @@
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-<!-- base for task bar -->
+<!-- BASE FOR TASK BAR -->
 <body>
+    <!-- Hamburger Menu -->
     <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-        ooo </div>
-        <div class="menu-items" id="menu-items"> <ul>
-            <li><a href="home.html" id="home">HOME</a></li>
-            <li><a href="resume.html" id="resume">RESUME</a></li>
-            <li><a href="artwork.html" id="artwork">ARTWORK</a></li>
-            <li><a href="about.html" id="about">ABOUT</a></li>
-            </ul></div>
-            <script>
-                // Changes menu visibility
-                    function toggleMenu() {
-                    var menu = document.getElementById("menu-items");
-                    menu.classList.toggle("active");
-                }
-                // Highlights current page
-                    function highlightActiveMenuItem() {
-                    var currentPage = window.location.pathname.split('/').pop(); // Get the current page's name
-                // Removes highlight
-                    var menuItems = document.querySelectorAll('.menu-items a');
-                    menuItems.forEach(function(item) {
-                    item.classList.remove('active');
-                });
-                // Highlight to current page
-                    var activeLink = document.getElementById(currentPage.split('.')[0]); // Use the page name (without .html)
-                    if (activeLink) {
-                    activeLink.classList.add('active');
-                  }
-                }
-                // More highlight
-                window.onload = highlightActiveMenuItem;
-              </script>
-          </div>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HELLO,</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
+      <div class="hamburger-icon" onclick="toggleMenu()">ooo</div>
+      <div class="menu-items" id="menu-items">
+        <ul>
+        <li><a href="home.html" id="home">HOME</a></li>
+        <li><a href="resume.html" id="resume">RESUME</a></li>
+        <li><a href="artwork.html" id="artwork">ARTWORK</a></li>
+        <li><a href="about.html" id="about">ABOUT</a></li>
+</ul></div></div>
+  
+<script>
+// Switch menu visibility
+    function toggleMenu() {
+    document.getElementById("menu-items").classList.toggle("active");
+}
+  
+// Highlight current page on menu
+    window.onload = function () {
+        var currentPage = window.location.pathname.split('/').pop().split('.')[0];
+        var activeLink = document.getElementById(currentPage);
+        if (activeLink) activeLink.classList.add('active');
+};
+</script>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HELLO,</title>
+<link rel="stylesheet" href="stylesheet.css">
+</body>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
 
 
 
@@ -254,18 +262,17 @@
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
-<!-- Line -->
+<!-- LINE FOR CONTACT -->
 <hr>
 <!-- CONTACT -->
-<br>
-<div class="contact-section">
-    <h2>CONTACT</h2>
+<br><div class="contact-section">
+<h2>CONTACT</h2>
     <div class="divider"></div>
     <div class="contact-info">
-        <p>Email: <a href="mailto:grauerlaura80@gmail.com">grauerlaura80@gmail.com</a></p>
-        <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/laura-grauer-807662286" target="_blank">LINKEDIN</a></p>
-        <p class="discord">Discord: <span>cowbone#9173</span></p>
-    </div>
+    <p>Email: <a href="mailto:grauerlaura80@gmail.com">grauerlaura80@gmail.com</a></p>
+    <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/laura-grauer-807662286" target="_blank">LINKEDIN</a></p>
+    <p class="discord">Discord: <span>cowbone#9173</span></p>
 </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+</div>
 </body></html>
