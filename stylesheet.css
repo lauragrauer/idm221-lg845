@@ -193,3 +193,21 @@ hr {
 .images-container .image {
     position: center;
 }
+
+/* SCROLL BUTTON */
+.scroll-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    background-color: #AF0E31;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    margin-top: 2rem; /* Adjusted top margin for better spacing */
+    margin-left: 4rem;  /* Centering horizontally */
+    margin-right: 4rem; /* Centering horizontally */
+    margin-bottom: 4rem;
+    display: block; /* Block-level element for full width centering */
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
