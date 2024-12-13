@@ -66,6 +66,7 @@ button {
     max-width: 100%;
     height: auto;
     padding: 10px;
+    cursor: pointer;
 }
 
 body {
@@ -202,12 +203,59 @@ hr {
     color: #FFFFFF;
     border-radius: 1rem;
     padding: 3rem 5rem;
-    margin-top: 2rem; /* Adjusted top margin for better spacing */
-    margin-left: 4rem;  /* Centering horizontally */
-    margin-right: 4rem; /* Centering horizontally */
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-bottom: 4rem;
-    display: block; /* Block-level element for full width centering */
+    display: block;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+}
+
+.text-background {
+    background-color: #ffffff;   
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;    
+}
+
+.custom-bold {
+    display: block;  
+    background-color: transparent; 
+    color: #19191A;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-top: 2px solid #19191A;
+    border-bottom: 2px solid #19191A; 
+    width: 100%;
+    text-align: left;  
+}
+
+/* Custom PDF Link buton */
+.custom-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    background-color: #AF0E31;
+    color: #FFFFFF; 
+    border-radius: 0.5rem;
+    padding: 3rem 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Link Button Styles */
+.link-button {
+    background-color: #AF0E31; /* Background color for the link button */
+}
+
+.link-button:hover {
+    background-color: #9C0E26; /* Darker background when hovering */
 }
