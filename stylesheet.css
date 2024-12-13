@@ -269,13 +269,16 @@ hr {
     background-color: #9C0E26;
 }
 
-/* Single Image to the side */
+/* Single Image to Left */
 .images-container {
     display: flex; 
     justify-content: flex-start;
     align-items: center; 
 }
 
-.images-container img {
-    margin-left: 1rem;
+.custom-content-box {
+    background-color: #242325;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 10px;
 }
