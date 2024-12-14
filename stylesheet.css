@@ -1,120 +1,19 @@
 /* -------------------------------------------------------------------------------------------------------------------------- */
-/* GENERAL */
+/* GENERAL BG*/
 * {
     font-family: 'Montserrat', sans-serif;
     padding: 0.2rem;
     box-sizing: border-box;
     letter-spacing: 0.8px;
 }
-/* -------------------------------------------------------------------------------------------------------------------------- */
 
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* TEXT */
-body {
-    background-color: #19191a;
-}
-
-h1 {
+/* RESUME BACKGROUND */
+.text-background {
+    background-color: #ffffff;   
+    padding: 0.5rem;
     margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 2rem;
-    color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 0.1rem;
+    margin-right: 1rem;    
 }
-
-h2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1.3rem;
-    color: #D7DBDD;
-    margin-top: 0.01rem;
-    margin-bottom: 0.01rem;
-}
-
-h3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1.3rem;
-    color: #7D7D7D;
-    margin-top: 0.01rem;
-    margin-bottom: 0.01rem;
-}
-
-h4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1.7rem;
-    color: #FFFFFF;
-    margin-top: 0.01rem;
-    margin-bottom: 0.01rem;
-}
-
-p {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-    line-height: 1.5;
-    color: #CCCCCC;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* IMAGE */
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.5px;
-    margin-top: 0.5px;
-    max-width: 100%;
-    height: auto;
-    padding: 8px;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* BUTTON */
-button {
-    display: block;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    max-width: 100%;
-    height: auto;
-    padding: 10px;
-    cursor: pointer;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* BODY */
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* HAMBURGER MENU */
@@ -188,10 +87,85 @@ body {
     right: 0;
 }
 /* -------------------------------------------------------------------------------------------------------------------------- */
+/* TEXT */
+p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: #CCCCCC;
+}
 
+/* BODY */
+body {
+    background-color: #19191a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem; /* Removed the second body declaration */
+}
 
+/* H1 */
+h1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+}
 
+/* H2 */
+h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: #D7DBDD;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+}
 
+/* H3 */
+h3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: #7D7D7D;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+}
+
+/* H4 */
+h4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* IMAGES */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
+    max-width: 100%;
+    height: auto;
+    padding: 8px;
+}
+
+.images-container {
+    max-width: auto;
+    height: auto;
+    display: flex;
+}
+
+.images-container .image {
+    position: center;
+}
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* CONTACT */
@@ -223,11 +197,6 @@ body {
     display: block;
     margin-bottom: 2px;
 }
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* HORIZONTAL LINE */
@@ -237,33 +206,9 @@ hr {
     width: 100%;
     margin: 0.4px;
 }
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
-/* IMAGE CONTAINER */
-.images-container {
-    max-width: auto;
-    height: auto;
-    display: flex;
-}
-
-.images-container .image {
-    position: center;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* SCROLL BUTTON */
+/* BUTTONS */
 .scroll-button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
@@ -281,80 +226,57 @@ hr {
     text-decoration: none;
 }
 
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* RESUME BACKGROUND */
-.text-background {
-    background-color: #ffffff;   
-    padding: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;    
+.scroll-button:hover {
+    background-color: #D9112A;
 }
+
+.case-study-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background-color: #AF0E31;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 3rem 5rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 2.8rem auto;
+}
+
+.case-study-button:hover {
+    background-color: #D9112A;
+}
+
+.custom-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background-color: #AF0E31;
+    color: #FFFFFF; 
+    border-radius: 0.5rem;
+    padding: 3rem 6rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; 
+    margin: 2rem auto; 
+    width: max-content; 
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* CUSTOM TEXT */
+/* CUSTOM CUSTOM */
 .custom-bold {
     display: block;  
     background-color: transparent; 
     color: #19191A;
     font-size: 1.3rem;
-    font-weight: bold;
     padding: 0.5rem;
     border-top: 2px solid #19191A;
     border-bottom: 2px solid #19191A; 
     width: 100%;
     text-align: left;  
 }
-/* -------------------------------------------------------------------------------------------------------------------------- */
 
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* CUSTOM PDF BUTTON */
-.custom-button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
-    background-color: #AF0E31;
-    color: #FFFFFF; 
-    border-radius: 0.5rem;
-    padding: 3rem 5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-}
-
-/* Link Button Styles */
-.link-button {
-    background-color: #AF0E31;
-}
-
-.link-button:hover {
-    background-color: #9C0E26;
-}
-/* -------------------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
-/* CASE STUDY IMAGE TO THE LEFT */
 .images-container {
     display: flex; 
     justify-content: flex-start;
@@ -367,4 +289,3 @@ hr {
     margin-right: 0.5rem;
     border-radius: 10px;
 }
-/* -------------------------------------------------------------------------------------------------------------------------- */
