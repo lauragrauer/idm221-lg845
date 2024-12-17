@@ -168,14 +168,17 @@ img {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
-/* CONTACT */
+/* CONTACT SECTION */
 .contact-section {
     text-align: left;
     border-top: 1px solid #5A595B;
+    padding-top: 1rem; 
 }
 
 .contact-section h3 {
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
 }
 
 .contact-info {
@@ -186,6 +189,7 @@ img {
 .contact-info a {
     color: #CCCCCC;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .contact-info a:hover {
@@ -197,6 +201,7 @@ img {
     display: block;
     margin-bottom: 2px;
 }
+
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* HORIZONTAL LINE */
@@ -253,7 +258,7 @@ hr {
     font-size: 1.6rem;
     background-color: #AF0E31;
     color: #FFFFFF; 
-    border-radius: 0.5rem;
+    border-radius: 0.9rem;
     padding: 3rem 6rem;
     text-align: center;
     cursor: pointer;
@@ -261,6 +266,10 @@ hr {
     display: block; 
     margin: 2rem auto; 
     width: max-content; 
+}
+
+.custom-button:hover {
+    background-color: #D9112A;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
@@ -290,4 +299,69 @@ hr {
     max-width: 100%;
     height: auto;
     padding: 8px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* CASE STUDY BUTTON */
+.case-study {
+    text-decoration: none;
+}
+
+.case-study-button1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #242325;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease;
+}
+
+.case-study-button1:hover {
+    background-color: #333;
+}
+
+/* Image inside button */
+.case-study-image {
+    width: 550px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 0.7rem;
+}
+
+/* Title Styling */
+.case-study-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    line-height: 1.5rem;
+}
+
+/* Description for Case Studies */
+.case-study-description {
+    font-size: 0.9rem;
+    color: #cccccc;
+    font-weight: 200;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    line-height: 1.3rem;
+    padding: 0;
 }
