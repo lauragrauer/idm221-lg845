@@ -188,7 +188,8 @@ img {
 
 .contact-info a {
     color: #CCCCCC;
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 0.5;
     text-decoration: none;
 }
 
